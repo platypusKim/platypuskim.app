@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'KyoboHand';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@1.0/KyoboHand.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  color: black;
+  background-color: white;
+  font-family: 'Kyobohand';
+}
+
+h1{
+  text-align: center;
+  font-size: 80px;
+  padding: 40px;
+}
+
+ul {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 30px;
+  cursor: default;
+  user-select: none;
+}
+
+li {
+  display: inline;
+  margin: 0 25px 0 25px;
+  padding: 10px;
+  cursor: pointer;
+}
+li:hover{
+  background-color: black;
+  color: white;
+}
+
+#home, #work, #about{
+  display: none;
+}
+
+#home img{
+  width: 400px;
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+}
+
+#wiseSaying{
+  text-align: center;
+  margin-top: 50px;
+}
+
+#wiseSaying q{font-size: 30px;}
+#wiseSaying p{
+  margin-top: -1px;
+  font-size: 20px;
+  color: grey; 
+}
+
+#work p{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 240px;
+  color: grey;
+}
+
+#about p{
+  text-align: center;
+  font-size: 30px;
+  margin-top:125px;
+}
+
+#about a{
+  color: white;
+  background-color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 20px;
+}
